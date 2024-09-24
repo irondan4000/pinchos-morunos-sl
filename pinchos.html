@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferco SL - Pinchos Morunos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #d35400;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #d35400;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #e67e22;
+        }
+        .banner {
+            background-image: url('https://via.placeholder.com/1500x500');
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner h2 {
+            color: white;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .section-title {
+            text-align: center;
+            margin: 40px 0 20px 0;
+            font-size: 2em;
+            color: #d35400;
+        }
+        .productos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .producto {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            margin: 20px;
+            text-align: center;
+        }
+        .producto img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .producto h3 {
+            margin-top: 10px;
+            color: #d35400;
+        }
+        .producto p {
+            margin: 10px 0;
+        }
+        .producto .precio {
+            font-size: 1.5em;
+            color: #27ae60;
+        }
+        .contacto {
+            background-color: #d35400;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        .contacto h2 {
+            margin: 0;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ferco SL - Pinchos Morunos</h1>
+        <p>Los mejores pinchos a la parrilla, al mejor precio.</p>
+    </header>
+
+    <nav>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="banner">
+        <h2>Auténticos sabores a la parrilla</h2>
+    </div>
+
+    <section id="productos">
+        <h2 class="section-title">Nuestros Productos</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="https://via.placeholder.com/300" alt="Pincho de Pollo">
+                <h3>Pincho Moruno de Pollo</h3>
+                <p>Jugosos y sazonados con nuestras especias secretas.</p>
+                <p class="precio">€3.50</p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300" alt="Pincho de Ternera">
+                <h3>Pincho Moruno de Ternera</h3>
+                <p>Una explosión de sabor para los amantes de la carne.</p>
+                <p class="precio">€4.50</p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300" alt="Pincho Vegetariano">
+                <h3>Pincho Moruno Vegetariano</h3>
+                <p>Una opción saludable y deliciosa.</p>
+                <p class="precio">€3.00</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <p style="text-align: center; padding: 0 20px;">En Ferco SL nos dedicamos a ofrecer los mejores pinchos morunos desde 1995. Usamos ingredientes de alta calidad y nuestras recetas se han transmitido de generación en generación.</p>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contáctanos</h2>
+        <p>Teléfono: +34 123 456 789</p>
+        <p>Email: contacto@fercosl.com</p>
+        <p>Dirección: Calle de los Pinchos, 123, Madrid, España</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Ferco SL. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
